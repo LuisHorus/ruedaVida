@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rueda de la vida</title>
+  </head>
+  <body>
+      <h1>Rueda De La Vida</h1>
+      <div class="instruc">
+      <h3>Instruccciones</h3>
+      <p>
+          Interactua con el circulo donde 1 sea una carencia y 10 una virtud. <br>
+          Solo observa la animación de la rueda.
+      </p>
+    </div>
+    <style>
+      /* Responsive size */
+      .goal-life-wheel {
+        height: 475px;
+        width: 827px;
+        overflow: hidden;
+        border: none;
+      }
+      /* Medium */
+      @media screen and (min-width: 600px) and (max-width: 824px) {
+        .goal-life-wheel {
+          height: 443px;
+          width: 598px;
+        }
+      }
+      /* Small */
+      @media screen and (min-width: 500px) and (max-width: 599px) {
+        .goal-life-wheel {
+          height: 422px;
+          width: 498px;
+        }
+      }
+      /* Small-2 */
+      @media screen and (min-width: 400px) and (max-width: 499px) {
+        .goal-life-wheel {
+          height: 402px;
+          width: 398px;
+        }
+      }
+      /* Tiny */
+      @media screen and (max-width: 399px) {
+        .goal-life-wheel {
+          height: 320px;
+          width: 318px;
+        }
+      }
+      .goal-life-wheel{
+        display: block;  
+        margin: 0 auto;
+      }
+      h1{
+          text-align: center;
+          font-size: 42px;
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color:cornflowerblue;
+      }
+      h1:hover{
+        transition: all 2s;
+        transform: scale(1.5, 1.2);
+      }
+      .instruc{
+        display: block;          
+        margin: 0 auto;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p{
+        line-height: 1.5;
+        text-align: center;
+      }
+     
+
+    </style>
+    
+    <iframe class="goal-life-wheel" src="https://goal-life.com/es/tool/wheel_life_iframe?areas=1f8b08000000000000031d8ccb8dc23014005b4905ab24fe1f1d27169c40a202130c7a92ed87ec84d3eb8a12686c97bd8e66e6808f508d724e729a63fbe9ce15efb1019690b8906672740969bf8d56333ed00c2556f452cf4c93ab71850cb16cd89d636ddf66b162549e2e98f6153eefd2dd62f7ac784d3187a6d424174536c3039bf7b3918cecbe61c60d5ee1dfb7468849d3b1c00ae14b19e7462ce44386046190b6d7e2ef80d5a9de7141a715d0f5cc8cd32fdb6511cecb000000"></iframe>
+    <div class="instruc">
+    <h3>¿Cómo lo descargo?</h3>    
+    <p>Una vez completado los circulos se te habilitara la opcion de descargar y podras guardarla en una imagen</p>
+  </div>
+  <footer>
+    <div class="instruc">
+    <h6>
+      Rueda De La Vida
+    </h5> <p>
+      Todos los Derechos reservados Misael Muñoz 2021 &copy 
+    </p>
+    <p class="horus">Elaborado: Luis Escobedo</p>
+  </div>
+  </footer>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+     footer{
+       margin-top: 100px;
+        background-color:#2b3035 ;
+        color: white;
+         display: block;
+          overflow: hidden;
+          height: auto;
+          width:100%;
+      }
+      footer p{
+        font-weight: bold;
+        letter-spacing: 1.2px;
+      }
+      .horus{
+        font-size: 10px;
+      }
+      body{
+        width: 98%;
+      }
+  </style>
+  </body>
+</html>
